@@ -12,8 +12,6 @@ html, body {
 
 header {
     background-color: rgb(148, 148, 148);
-    
-    padding-bottom: 30px;
 }
 
 header > h1 {
@@ -22,7 +20,7 @@ header > h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
@@ -41,11 +39,17 @@ menu > ul > li > a {
 
 span {
     background-color: rgb(49, 49, 49);
+    width: 100vw;
     color: white;
     display: block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
+}
+
+span:hover {
+    background-color: white;
+    color: black;
 }
 
 menu > ul > li > a:hover {

@@ -37,17 +37,17 @@ menu > ul > li > a {
     border-top: 2px solid gray;
 }
 
-span {
+span#burguer {
     background-color: rgb(49, 49, 49);
     width: 100vw;
     color: white;
-    display: block;
+    
     text-align: center;
     padding: 10px;
     cursor: pointer;
 }
 
-span:hover {
+span#burguer:hover {
     background-color: white;
     color: black;
 }
